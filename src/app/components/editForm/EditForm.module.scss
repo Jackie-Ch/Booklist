@@ -1,0 +1,36 @@
+.editForm {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: #4d9df8;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 450px;
+
+  h2 {
+    margin: 20px 0 10px;
+  }
+  input {
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    width: 90%;
+    border-radius: 8px;
+  }
+}
+.cancelBtn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.saveBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+}
